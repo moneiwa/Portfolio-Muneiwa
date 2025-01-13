@@ -1,0 +1,100 @@
+/* CSS Styles (App.css) */
+body {
+  font-family: 'Poppins', sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f4f4f9;
+  color: #333;
+}
+.project-screenshot {
+  width: 100%;           /* Make the image take up the full width of its container */
+  max-width: 200px;      /* Restrict the width to a maximum value to avoid oversized images */
+  height: auto;          /* Maintain the aspect ratio */
+  border-radius: 8px;    /* Add rounded corners */
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); /* Add subtle shadow */
+  object-fit: cover;     /* Ensures the image covers the container without stretching */
+  transition: transform 0.3s ease; /* Smooth scaling effect when hovering */
+  margin-top: 20px;      /* Add space above the image */
+  justify-content: center;
+}
+
+
+/* Add this to your App.css */
+
+/* Ensure the social links are displayed horizontally */
+.social-links {
+  list-style-type: none;
+  padding: 0;
+  display: flex; /* This makes the list items appear horizontally */
+  gap: 20px; /* Adds some space between the icons */
+  justify-content: center; /* Centers the icons horizontally */
+}
+
+.social-links li {
+  display: inline-block; /* Makes each list item inline */
+}
+
+.social-links a {
+  text-decoration: none;
+  color: #333;
+  font-size: 18px;
+  display: flex;
+  align-items: center;
+}
+
+.social-links a svg {
+  margin-right: 8px; /* Space between the icon and the text */
+  font-size: 24px; /* Adjust size of the icon */
+}
+
+.social-links a:hover {
+  color: #0077b5; /* LinkedIn color or any color you prefer */
+}
+
+
+
+
+
+
+
+
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 50px;
+  background-color:black;
+  color: white;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.header h1 {
+  font-size: 24px;
+  color:white;
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+  gap: 20px;
+}
+
+nav ul li {
+  display: inline;
+}
+
+nav ul li a {
+  text-decoration: none;
+  color: white;
+  font-weight: 600;
+}
+
+
+
+
+
+
+
+
+
