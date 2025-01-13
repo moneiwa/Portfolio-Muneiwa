@@ -261,8 +261,9 @@ function App() {
 
 
       <section id="contact" className="contact-section">
-        <h2>Contact Me</h2>
+ 
         <div className="form-container">
+                  <h2>Contact Me</h2>
           <form action="https://formspree.io/f/mnnajaza" method="POST">
             <label htmlFor="name">Name</label>
             <input
