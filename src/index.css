@@ -94,6 +94,33 @@ nav ul li a {
 
 
 
+/* Mobile Responsiveness */
+@media (max-width: 768px) {
+  .header {
+    flex-direction: column; /* Stack header elements vertically */
+    padding: 20px 15px; /* Reduce padding for smaller screens */
+  }
+
+  .header h1 {
+    font-size: 20px; /* Slightly smaller font size for mobile */
+    margin-bottom: 10px; /* Add space below the title */
+  }
+
+  nav ul {
+    display: flex;
+    flex-direction: column; /* Stack the navigation items vertically */
+    gap: 10px; /* Reduce gap between menu items */
+    align-items: center; /* Center align the items */
+  }
+
+  nav ul li {
+    display: block; /* Ensure list items are block-level for stacking */
+  }
+
+  nav ul li a {
+    font-size: 1.1rem; /* Slightly smaller font size for mobile */
+  }
+}
 
 
 
