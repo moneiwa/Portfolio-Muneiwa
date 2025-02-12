@@ -1,4 +1,4 @@
-/* Universal Reset */
+
 body, html, ul, li, h1, h2, h3, p, a {
   margin: 0;
   padding: 0;
@@ -11,37 +11,37 @@ body, html, ul, li, h1, h2, h3, p, a {
 }
 
 .port {
-  color: white; /* Example style for "Port" */
+  color: white; 
 }
 
 .folio {
-  color: orange; /* Example style for "folio" */
+  color:#EB5A3C; 
 }
 
 
 .tech {
-  color: rgb(255, 166, 0); /* Example color for the tech terms */
-  font-weight: bold; /* Making the tech terms bold */
+  color: #EB5A3C; 
+  font-weight: bold; 
 
-  transition: color 0.3s ease; /* Smooth transition for color change */
+  transition: color 0.3s ease; 
 }
 
 
-/* Body Styling */
+
 body {
   font-family: 'Poppins', sans-serif;
   background-color: black;
   color: #333;
   width: 90%;
   margin-left: 5%;
-  display: flex;   /* Added Flexbox to center content */
+  display: flex;  
   justify-content: center;
-  align-items: center;   /* Center vertically */
-  min-height: 100vh;   /* Ensure full height */
-  flex-direction: column; /* Added this to ensure elements stack vertically */
+  align-items: center;  
+  min-height: 100vh;  
+  flex-direction: column; 
 }
 
-/* Header Section */
+
 .header {
   display: flex;
   justify-content: space-between;
@@ -83,7 +83,7 @@ body {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  flex-wrap: wrap;  /* Allow content to wrap on smaller screens */
+  flex-wrap: wrap;  
 }
 
 /* Hero Content Layout */
@@ -93,7 +93,7 @@ body {
   justify-content: space-between;
   max-width: 1200px;
   margin: 0 auto;
-  flex-wrap: wrap;  /* Allow flexibility in smaller screens */
+  flex-wrap: wrap; 
 }
 
 /* Left Side: Image Container */
@@ -101,7 +101,7 @@ body {
   position: relative;
   width: 50%;
   max-width: 400px;
-  margin-bottom: 20px;  /* Ensure spacing when wrapped */
+  margin-bottom: 20px;  
 }
 
 /* Large Main Image */
@@ -224,8 +224,8 @@ body {
   padding: 50px;
   background-color: #f4f4f4;
   display: grid;
-  grid-template-columns: repeat(2, 1fr); /* Two columns */
-  gap: 20px; /* Space between the columns */
+  grid-template-columns: repeat(2, 1fr); 
+  gap: 20px; 
 }
 
 .project-card {
@@ -253,7 +253,7 @@ body {
 
 .project-screenshot {
   width: 100%;
-  max-width: 250px; /* Adjust the size of images */
+  max-width: 250px;
   height: auto;
   border-radius: 8px;
   margin: 10px 0;
@@ -269,20 +269,22 @@ body {
   text-decoration: underline;
 }
 
-/* Optional: Add responsiveness for smaller screens */
 @media (max-width: 768px) {
   .projects-section {
-    grid-template-columns: 1fr; /* Stack the project cards */
+    grid-template-columns: 1fr; 
   }
   
   .hero-section {
     flex-direction: column;
     text-align: center;
+    text-align: center;
   }
 
   .hero-text {
-    width: 100%;
+    width: 90%;
     padding-left: 0;
+    margin-left: 12px;
+    text-align: center;
   }
 
   .image-container {
@@ -290,7 +292,8 @@ body {
   }
 }
 
-/* Group Projects Section */
+
+
 .group-projects-section {
   padding: 50px;
   background-image: url('./assets/group.jpeg');
@@ -303,7 +306,7 @@ body {
 }
 
 .group-projects-section h2 {
-  text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.7); /* Add text shadow for readability */
+  text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.7); 
 }
 
 .group-projects-section ul {
@@ -385,12 +388,12 @@ body {
 
 .goals-container {
   display: flex;
-  justify-content: space-between; /* Space out the columns */
-  gap: 20px; /* Space between the two columns */
+  justify-content: space-between; 
+  gap: 20px; 
 }
 
 .goals-column {
-  flex: 1; /* Each column will take equal space */
+  flex: 1; 
   padding: 20px;
   background-color: #ffffff;
   border-radius: 8px;
@@ -439,7 +442,7 @@ body {
 
 
 
-/* Skills Section */
+
 .skills-section {
   padding: 50px;
   background-color: #f4f4f4;
@@ -453,9 +456,9 @@ body {
 
 .skills-container {
   display: flex;
-  flex-wrap: wrap; /* Wrap the logos if needed */
+  flex-wrap: wrap; 
   justify-content: center;
-  gap: 40px; /* Space between the skills */
+  gap: 40px; 
 }
 
 .skill-item {
@@ -466,7 +469,7 @@ body {
 }
 
 .skill-logo {
-  width: 80px; /* Adjust the size of the logos */
+  width: 80px; 
   height: auto;
   margin-bottom: 10px;
 }
@@ -477,14 +480,13 @@ body {
   font-weight: 600;
 }
 
-/* Optional: Add responsiveness for smaller screens */
 @media (max-width: 768px) {
   .skills-container {
-    gap: 20px; /* Reduce space between logos on smaller screens */
+    gap: 20px;
   }
 
   .skill-logo {
-    width: 60px; /* Make the logos smaller on mobile */
+    width: 60px; 
   }
 }
 
@@ -570,40 +572,40 @@ button:hover {
 
 
 
-/* Mobile Responsiveness */
+
 @media (max-width: 768px) {
   .form-container {
-    padding: 20px; /* Add padding around the form */
+    padding: 20px;
   }
   .form-container h2 {
-    padding: 20px; /* Add padding around the form */
+    padding: 20px; 
   }
 
   form {
-    padding: 0 15px; /* Add padding to form elements to avoid sticking to edges */
+    padding: 0 15px; 
   }
 
   label {
-    font-size: 1rem; /* Slightly smaller font size */
+    font-size: 1rem;
   }
 
   input, textarea {
-    font-size: 0.9rem; /* Slightly smaller font size for input fields */
-    padding: 8px; /* Slightly smaller padding */
-    margin-bottom: 15px; /* Reduce margin for compact spacing */
+    font-size: 0.9rem; 
+    padding: 8px; 
+    margin-bottom: 15px; 
   }
 
   button {
-    font-size: 1rem; /* Slightly smaller button text */
-    padding: 10px 15px; /* Adjust button padding for smaller screens */
+    font-size: 1rem; 
+    padding: 10px 15px; 
   }
 
   .social-media a {
-    margin: 0 8px; /* Reduce margin between social media icons */
+    margin: 0 8px;
   }
 
   .social-media img {
-    width: 30px; /* Make the social media icons smaller */
+    width: 30px; 
     height: 30px;
   }
 }
