@@ -250,7 +250,7 @@ function App() {
     </p>
     <ul>
       <li><strong>Team Members:</strong> 10 Members </li>
-      <li><strong>Tech Stack:</strong> React,j</li>
+      <li><strong>Tech Stack:</strong> React</li>
       <li><strong>Key Features:</strong> Real-time monitoring, notifications</li>
       <li><strong>Collaboration Experience:</strong> Used Scrum and GitHub for version control.</li>
     </ul>
